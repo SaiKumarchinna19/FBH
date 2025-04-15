@@ -1,0 +1,56 @@
+{%  extends 'base.html' %}
+{% block content %}
+
+<article class="msg">
+    {% if messages %}
+    {% for message in messages %}
+        <div class="message">
+            {{message}}
+        </div>
+    {% endfor %}
+{% endif %}
+</article>
+<div class="profile_back">
+    <center><h1 >Account Creation</h1> </center>
+
+<section class="profile_section">
+   
+    <form action="" method="POST" >
+        
+        {% csrf_token %}
+                <div class="insides">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id=""><br><br><br>
+                </div>
+                <div class="insides">
+                    <label for="dob">DOB:</label>
+                    <input type="date" name="dob" id=""><br><br><br>
+                </div>
+                <div class="insides">
+                    <label for="aadhar">Aadhar:</label>
+                    <input type="text" name="aadhar" id="" maxlength="12"><br><br><br>
+                </div>
+                <div class="insides">
+                    <label for="mobile">Phone:</label>
+                    <input type="tel" name="phone" id="" maxlength="10"><br><br><br>
+                </div>
+                <div class="insides">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="" ><br><br><br>
+                </div>
+
+                <div class="insides">
+                        <label for="address">Adress:</label>
+                        <!-- <textarea  type="text" name="address" ></textarea> -->
+                         <input type="text" name="address" id=""> <br><br><br>
+                         <button  class="btnprofile">Create</button>
+                </div>
+            
+                </div>
+                
+
+
+    </form>
+</section>
+</div>
+{%  endblock content %}

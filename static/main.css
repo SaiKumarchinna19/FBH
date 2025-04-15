@@ -1,0 +1,23 @@
+.logos{
+    height: 100px;
+    width: 100px;
+    
+}
+.logos:hover{
+    height: 120px;
+    width: 120px;
+    box-shadow: 0 0 5px blue;
+    border-radius: 50%;
+    /* background-image: url("../static/images/FBH.png"); */
+    content: ;
+
+    
+}
+.alllogos{
+    /* border: 2px solid yellow; */
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

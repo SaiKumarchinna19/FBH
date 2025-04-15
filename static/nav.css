@@ -1,0 +1,38 @@
+.logo1{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    border: 3px solid rgb(79, 104, 84);
+}
+.main_nav{
+    border: 2px solid red;
+    height: 300px;
+    width: 500px;
+    display: flex;
+}
+.nav_para{
+    margin-top: -70px;
+    font-family:"bungee Tint",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+
+}
+.nav_data{
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 40px;
+}
+nav{
+    /* border: 2px solid rgb(81, 0, 255); */
+    background-color: rgb(60, 57, 58);
+    height: 200px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+

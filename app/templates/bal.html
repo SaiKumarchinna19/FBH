@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{%  block content %}
+{% if var %}
+<h1> the balance is :{{bal}}</h1>
+{% else %}
+<form action="" method="POST" class="balance_form" >
+    {% csrf_token %}
+    <label for="">Account Number</label>
+    <input type="number" name="acc" id="">
+    <br> <br>
+    <label for="">PIN</label>
+    <input type="password" name="pin" id="" maxlength="4">
+    <br> <br>
+    <button>CHECK</button>
+</form>
+{%  endif %}
+{{msg}}
+{% endblock content %}

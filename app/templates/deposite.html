@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    
+<form action="" method="post" class="balance_form">
+    {% csrf_token %}
+    <label for="" >Account Number</label>
+    <input type="text" name="acc" id="">
+    <label for="">Enter Pin</label>
+    <input type="password" name="pin" id="">
+    <label for="balance">Enter Amount</label>
+    <input type="text" name="balance" id="">
+    <br>
+    <button>Add</button>
+
+</form>
+
+{%  endblock content %}

@@ -1,0 +1,19 @@
+{%  extends 'base.html' %}
+{% block content %}
+<center><h1 class="heading">Pin Generation</h1></center>
+<section class="validation">
+    <form action="" method="POST" class="valid_form">
+        {% csrf_token %}
+        <label for="acc" >Account Number</label>
+        <input type="number" name="acc" id=""><br><br>
+        <label for="">OTP</label>
+        <input type="number" name="otp" id="" maxlength="6"><br><br>
+        <label for="">PIN</label>
+        <input type="password" name="pin1" id=""><br><br>
+        <label for="">Confirm Your Pin</label>
+        <input type="password" name="pin2" id=""><br><br>
+        <button type="submit">SETPIN</button>
+    
+    </form>
+</section>
+{% endblock content %}

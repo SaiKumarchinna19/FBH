@@ -1,27 +1,84 @@
-<h1>Fraud Bank Of Hyderbad</h1>
-<hr>
-<h2>features :<h2>
+Here’s a polished and complete version of the `README.md` file for your [FBH repository](https://github.com/SaiKumarchinna19/FBH), incorporating the existing details along with technologies used and image badges:
 
+---
 
-# TECHNOLOGIES USED 📌
+# 🏦 Fraud Bank of Hyderabad (FBH)
 
-## Front End 📫
+FBH is a simulated banking web application built using Django. It's designed to demonstrate essential banking operations and can serve as a learning tool for web development and security practices in financial software.
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+---
 
+## 📸 Preview
 
+| Login Page | Dashboard 
+|------------|-----------|
+|      ![Screenshot 2025-04-16 131248](https://github.com/user-attachments/assets/4c413f6d-c23e-4fe5-90a1-441103ea75c2)
+| Dashboard |
+![Screenshot 2025-04-16 131104](https://github.com/user-attachments/assets/ef2cab13-4a5a-48a0-b6c9-7073de10d82a)
 
+> _*Ensure these images exist in your `static/images/` directory or update with correct paths/names._
 
+---
 
-## Server Side ⚡
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+## 🚀 Features
 
+- User authentication (login/logout)
+- Bank account creation
+- Transaction processing (deposit/withdrawal)
+- Transaction history
+- Admin management panel
 
-## Development Tools 📺
+---
 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-## Social 🌍
+## 🛠️ Technologies Used
 
-![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+### 🌐 Frontend
+
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+
+### ⚙️ Backend
+
+- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+- ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
+
+### 🧰 Tools
+
+- ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visualstudiocode&logoColor=white)
+
+---
+
+## 📂 Project Structure
+
+```
+FBH/
+│
+├── app/              # Main Django app
+├── static/           # Static files (CSS, images)
+├── templates/        # HTML templates
+├── manage.py         # Django management script
+├── db.sqlite3        # SQLite database
+└── requirements.txt  # Dependencies
+```
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome! Feel free to fork the repo, raise issues, and submit pull requests.
+
+---
+
+## 📧 Contact
+
+For questions or feedback, reach out via [Gmail](mailto:example@gmail.com) _(Update with your actual contact)_.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+Would you like me to add this directly to the `README.md` in your repo or help generate preview image placeholders if you haven't added them yet?

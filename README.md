@@ -71,7 +71,7 @@ Contributions are welcome! Feel free to fork the repo, raise issues, and submit 
 
 ## 📧 Contact
 
-For questions or feedback, reach out via [Gmail](mailto:example@gmail.com) _(Update with your actual contact)_.
+For questions or feedback, reach out via chinnasaikumar24@gmail.com.
 
 ---
 

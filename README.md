@@ -81,4 +81,5 @@ This project is licensed under the MIT License.
 
 ---
 
-Would you like me to add this directly to the `README.md` in your repo or help generate preview image placeholders if you haven't added them yet?
+
+

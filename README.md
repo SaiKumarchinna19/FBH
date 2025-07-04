@@ -10,7 +10,7 @@ FBH is a simulated banking web application built using Django. It's designed to 
 
 ## 📸 Preview Of Project
 
-<h1>|Login|</h1>
+<h1>Login</h1>
 
 ![Screenshot 2025-04-16 131248](https://github.com/user-attachments/assets/4c413f6d-c23e-4fe5-90a1-441103ea75c2)
 

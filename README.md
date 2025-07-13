@@ -1,6 +1,5 @@
  Here’s a polished and complete version of the `README.md` file for your [FBH repository](https://github.com/SaiKumarchinna19/FBH), incorporating the existing details along with technologies used and image badges:
-
----
+ ---
 
 # 🏦 Fraud Bank of Hyderabad (FBH)
 

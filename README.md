@@ -4,7 +4,6 @@
 # 🏦 Fraud Bank of Hyderabad (FBH)
 
 FBH is a simulated banking web application built using Django. It's designed to demonstrate essential banking operations and can serve as a learning tool for web development and security practices in financial software.
-
 ---
 
 ## 📸 Preview Of Project

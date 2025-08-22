@@ -1,6 +1,7 @@
 {%  extends 'base.html' %}
 {%  block content %}
 {% load static %}
+<!-- main -->
 <div class="alllogos">
     <a href="{% url 'profile' %}"><img src="{% static 'assets/Profile.png'%}" class="logos" alt="" title="Account"></a>
 <a href="{% url 'pin' %}"><img src="{% static 'assets/pin.jpg' %}" class="logos" alt="" title="Pin generation"></a>
@@ -9,5 +10,6 @@
 <a href="{%  url 'withdraw' %}"><img src="{% static 'assets/withdraw.png' %}" class="logos" alt="" title="Withdraw"></a>
 <a href="{% url 'transfer' %}"><img src="{% static 'assets/service1.jpg' %}"  class="logos"alt="" title="Service"></a>
 </div>
+
 
 {%  endblock content %}

@@ -12,7 +12,7 @@ class Account(models.Model):
     acc=models.BigAutoField( primary_key=True ,unique=True)
     balance=models.DecimalField(max_digits=7,decimal_places=2,default=1000.0)
     pin=models.IntegerField(default=0)
-    email=models.EmailField(default='chinnasaikumar24@gmail.com')
+    email=models.EmailField(default='')
 
     OTP=models.IntegerField(default=0)
 

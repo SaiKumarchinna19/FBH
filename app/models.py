@@ -1,6 +1,6 @@
 from django.db import models
 
-Create your models here.
+# Create your models here.
 class Account(models.Model):
     
     name=models.CharField(max_length=32)
@@ -15,4 +15,5 @@ class Account(models.Model):
     email=models.EmailField(default='chinnasaikumar24@gmail.com')
 
     OTP=models.IntegerField(default=0)
+
 

@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Account(models.Model):
+    
     name=models.CharField(max_length=32)
     DOB=models.DateField()
     Aadhar=models.BigIntegerField()
@@ -12,4 +13,5 @@ class Account(models.Model):
     balance=models.DecimalField(max_digits=7,decimal_places=2,default=1000.0)
     pin=models.IntegerField(default=0)
     email=models.EmailField(default='chinnasaikumar24@gmail.com')
+
     OTP=models.IntegerField(default=0)

@@ -38,8 +38,6 @@
     margin-top: 5%;
     border-radius: 30px;
     box-shadow: 15px 15px 15px rgb(3, 9, 11);
-    
-
 }
 .pin_form input:hover{
     height: 37px;
@@ -64,4 +62,5 @@
 
 
 }
+
 
